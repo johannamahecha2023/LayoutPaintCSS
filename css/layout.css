@@ -1,0 +1,75 @@
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    display: grid;
+    grid-template-rows: 40px 50px 1fr 50px;
+    grid-template-areas:
+        "untitled"
+        "file"
+        "icons"
+        "colors"
+        "elipse";
+}
+
+/* Primera fila: barra de título con botones */
+.untitled {
+    background: #5855c1;
+    display: grid;
+    grid-area: untitled;
+    grid-template-columns: 1fr auto auto auto; /* Espacio flexible a la izquierda */
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Espacio para el título */
+.hijo_untitled {
+    grid-column: 1 / 2; /* Ocupa la primera columna */
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Botones */
+#minimizar, #maximizar, #cerrar {
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Colores opcionales */
+#minimizar {
+    background: #7876a4;
+}
+#maximizar {
+    background: #d0a852;
+}
+#cerrar {
+    background: #c5749b;
+}
+
+.file {
+    background: #BDBEC0;
+    grid-area: file;
+}
+.icons {
+    background: #1e2271;
+    grid-area: icons;
+}
+.colors {
+    background: #ae2121;
+    grid-area: colors;
+}
+.elipse {
+    background: #ae2165;
+    grid-area: elipse;
+}
