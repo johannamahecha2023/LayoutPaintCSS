@@ -3,7 +3,7 @@
     height: 100vh;
     background: #ffffff;
     display: grid;
-    grid-template-rows: 40px 50px 1fr 50px;
+    grid-template-rows: 10px 25px 1fr 50px;
     grid-template-areas:
         "untitled"
         "file"
@@ -14,47 +14,59 @@
 
 /* Primera fila: barra de título con botones */
 .untitled {
-    background: #5855c1;
-    display: grid;
+    background: #060472;
+    display: flex;
     grid-area: untitled;
-    grid-template-columns: 1fr auto auto auto; /* Espacio flexible a la izquierda */
+    justify-content: space-between;
     align-items: center;
-    padding: 5px 10px;
+    padding:1px 2px;
     color: white;
-    font-size: 16px;
-    box-sizing: border-box;
+    font-size: 7px;
+    gap:1px;
 }
 
-/* Espacio para el título */
-.hijo_untitled {
-    grid-column: 1 / 2; /* Ocupa la primera columna */
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
+.div_flex_left{
+    display: flex;
+    align-items: center;
+    font-size: 1px;
+}
+
+#icono_paint img{
+    width: 10px;
+    height: 10px;
+    background: #1e2271;
+
+}
+.div_flex_right{
+    display: flex;
+    align-items: center;
+    font-size: 1px;
+    gap: 1px;
 }
 
 /* Botones */
 #minimizar, #maximizar, #cerrar {
-    font-size: 12px;
+    font-size: 5px;
     cursor: pointer;
-    text-align: center;
-    padding: 5px;
-    width: 20px;
-    height: 20px;
+    color: #000000;
+    padding-bottom: 0px; 
+    width: 15px;
+    height: 8px;
     display: flex;
-    align-items: center;
+    align-items:end;
     justify-content: center;
+ 
 }
 
 /* Colores opcionales */
 #minimizar {
-    background: #7876a4;
+    background: #BCBCC5;
 }
 #maximizar {
-    background: #d0a852;
+    background: #BCBCC5;
 }
 #cerrar {
-    background: #c5749b;
+    background: #BCBCC5;
 }
 
 .file {
