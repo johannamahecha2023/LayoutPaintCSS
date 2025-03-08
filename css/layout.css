@@ -28,7 +28,7 @@
 .div_flex_left{
     display: flex;
     align-items: center;
-    font-size: 1px;
+    font-size: 8px;
 }
 
 #icono_paint img{
@@ -69,10 +69,31 @@
     background: #BCBCC5;
 }
 
-.file {
+.file ol {
     background: #BDBEC0;
+    display: flex;
+    flex-direction: row;
     grid-area: file;
+    font-size: 8px;
+    gap: 5px;
+    list-style: none;
+    padding:0;
+    margin: 0;
 }
+
+.file ol li{
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: baseline; /* Asegura que la línea se alinee con el texto */
+}
+.first-letter{
+    font-weight: bold 1.5px;
+    display: inline-block;
+    text-decoration: underline; /* Usamos subrayado en lugar de border-bottom */
+    text-underline-offset: 0px; /* Asegura que la línea quede pegada */
+    text-decoration-thickness: 0.5px; /* Ajustamos el grosor de la línea */
+}
+
 .icons {
     background: #1e2271;
     grid-area: icons;
