@@ -3,7 +3,7 @@
     height: 100vh;
     background: #ffffff;
     display: grid;
-    grid-template-rows: 10px 25px 1fr 50px;
+    grid-template-rows: 10px 9px 1fr 50px;
     grid-template-areas:
         "untitled"
         "file"
@@ -97,7 +97,89 @@
 .icons {
     background: #1e2271;
     grid-area: icons;
+    display: grid;
+    grid-template-columns: 30px 30px ;
+    grid-template-rows: 10px 18px 30px 12px 10px 10px 10px 10px;
+    grid-template-areas:
+    "icons-one icons-nine "
+    "icons-two icons-teen"
+    "icons-three icons-eleven"
+    "icons-four icons-twelve"
+    "icons-five icons-thirteen"
+    "icons-six icons-fourteen"
+    "icons-seven icons-fifteen"
+    "icons-eight icons-sixteen"
+    
 }
+
+#icons-one{
+    grid-area: icons-one;
+    background: #9e3c3c;
+    font-size: 5px;
+}
+#icons-two{
+    grid-area: icons-one;
+    background: #219bae;
+    font-size: 5px;
+}
+#icons-three{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-four{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-five{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-six{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-seven{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-eight{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-nine{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-teen{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-eleven{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-twelve{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-thirteen{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-fourteen{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-fifteen{
+    grid-area: icons-one;
+    background: #219bae;
+}
+#icons-sixteen{
+    grid-area: icons-one;
+    background: #219bae;
+}
+
+
 .colors {
     background: #ae2121;
     grid-area: colors;
