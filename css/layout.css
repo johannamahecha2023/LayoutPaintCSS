@@ -3,7 +3,7 @@
     height: 100vh;
     background: #ffffff;
     display: grid;
-    grid-template-rows: 10px 9px 1fr 50px;
+    grid-template-rows: 10px 9px auto 50px 20px;
     grid-template-areas:
         "untitled"
         "file"
@@ -95,93 +95,135 @@
 }
 
 .icons {
-    background: #1e2271;
+    background: #ffffff;
     grid-area: icons;
     display: grid;
-    grid-template-columns: 30px 30px ;
-    grid-template-rows: 10px 18px 30px 12px 10px 10px 10px 10px;
+    grid-template: 16px 16px 16px 16px 16px 16px 16px 16px auto/ 18px 18px 1fr;
     grid-template-areas:
-    "icons-one icons-nine "
-    "icons-two icons-teen"
-    "icons-three icons-eleven"
-    "icons-four icons-twelve"
-    "icons-five icons-thirteen"
-    "icons-six icons-fourteen"
-    "icons-seven icons-fifteen"
-    "icons-eight icons-sixteen"
-    
+    "column1 column2 pizarra"
+    "column3 column4 pizarra"
+    "column5 column6 pizarra"
+    "column7 column8 pizarra"
+    "column9 column10 pizarra"
+    "column11 column12 pizarra"
+    "column13 column14 pizarra"
+    "column15 column16 pizarra"
+    "column17 column18 pizarra";
 }
 
-#icons-one{
-    grid-area: icons-one;
-    background: #9e3c3c;
-    font-size: 5px;
+.column1{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column1;
+    border:0.3px solid black ;
 }
-#icons-two{
-    grid-area: icons-one;
-    background: #219bae;
-    font-size: 5px;
+.column2{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column2;
+    border:0.3px solid black ;
 }
-#icons-three{
-    grid-area: icons-one;
-    background: #219bae;
+.column3{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column3;
+    border:0.3px solid black ;
 }
-#icons-four{
-    grid-area: icons-one;
-    background: #219bae;
+.column4{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column4;
+    border:0.3px solid black ;
 }
-#icons-five{
-    grid-area: icons-one;
-    background: #219bae;
+.column5{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column5;
+    border:0.3px solid black ;
 }
-#icons-six{
-    grid-area: icons-one;
-    background: #219bae;
+.column6{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column6;
+    border:0.3px solid black ;
 }
-#icons-seven{
-    grid-area: icons-one;
-    background: #219bae;
+.column7{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column7;
+    border:0.3px solid black ;
 }
-#icons-eight{
-    grid-area: icons-one;
-    background: #219bae;
+.column8{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column8;
+    border:0.3px solid black ;
 }
-#icons-nine{
-    grid-area: icons-one;
-    background: #219bae;
+.column9{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column9;
+    border:0.3px solid black ;
 }
-#icons-teen{
-    grid-area: icons-one;
-    background: #219bae;
+.column10{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column10;
+    border:0.3px solid black ;
 }
-#icons-eleven{
-    grid-area: icons-one;
-    background: #219bae;
+.column11{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column11;
+    border:0.3px solid black ;
 }
-#icons-twelve{
-    grid-area: icons-one;
-    background: #219bae;
+.column12{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column12;
+    border:0.3px solid black ;
 }
-#icons-thirteen{
-    grid-area: icons-one;
-    background: #219bae;
+.column13{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column13;
+    border:0.3px solid black ;
 }
-#icons-fourteen{
-    grid-area: icons-one;
-    background: #219bae;
+.column14{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column14;
+    border:0.3px solid black ;
 }
-#icons-fifteen{
-    grid-area: icons-one;
-    background: #219bae;
+.column15{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column15;
+    border:0.3px solid black ;
 }
-#icons-sixteen{
-    grid-area: icons-one;
-    background: #219bae;
+.column16{
+    background: #BDBDBC;
+    gap: 1px;
+    grid-area: column16;
+    border:0.3px solid black ;
 }
+.column17{
+    background: #BDBDBC;
+    grid-area: column17;
+}
+.column18{
+    background: #BDBDBC;
+    grid-area: column18;
 
+}
+.pizarra{
+    background: #ffffff;
+    grid-area: pizarra;
+
+}
 
 .colors {
-    background: #ae2121;
+    background: #219bae;
     grid-area: colors;
 }
 .elipse {
