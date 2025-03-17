@@ -3,7 +3,7 @@
     height: 100vh;
     background: #ffffff;
     display: grid;
-    grid-template-rows: 10px 9px auto 30px 10px;
+    grid-template-rows: 10px 9px auto 35px 10px;
     grid-template-areas:
         "untitled"
         "file"
@@ -307,9 +307,50 @@
 }
 
 .colors {
-    background: #219bae;
+    background: #BDBDBC;
+    border: 1px solid  #bebdbd ;
+    display: grid;
     grid-area: colors;
+    grid-template: 40px/40px 50px;
+    grid-template-areas:
+    "palettetwo palettemultiple" ;
 }
+
+.palettetwo{
+    background-color: #ffffff;
+    grid-area: palettetwo;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    margin-left: 13px;
+    margin-bottom: 12px;
+    display: flex;
+    border-left: 1px solid #979797; 
+    border-top: 1px solid #979797; 
+    gap: 1px;
+
+}
+.seleccion1,.seleccion2{
+    font-size: 27px;
+    background: #FDFFFC;
+    width: 8px;
+    height: 8px;
+    border-left:1px solid #9E9E9D;
+    border-top:1px solid #9E9E9D;
+    border-bottom:0.1px solid #9E9E9D;
+    border-right:0.1px solid #9E9E9D;
+    
+}
+
+.palettemultiple{
+   margin-top: 7px;
+   margin-left: 3px;
+   margin-bottom: 8px;
+   background:#98ae28;
+   grid-area: palettemultiple;
+}
+
 .elipse {
     background: #ae2165;
     grid-area: elipse;
