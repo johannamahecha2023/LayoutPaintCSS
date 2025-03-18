@@ -3,7 +3,7 @@
     height: 100vh;
     background: #ffffff;
     display: grid;
-    grid-template-rows: 10px 9px auto 35px 10px;
+    grid-template-rows: 20px 19px auto 80px 20px;
     grid-template-areas:
         "untitled"
         "file"
@@ -28,12 +28,12 @@
 .div_flex_left{
     display: flex;
     align-items: center;
-    font-size: 8px;
+    font-size: 18px;
 }
 
 #icono_paint img{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background: #1e2271;
 
 }
@@ -41,17 +41,17 @@
     display: flex;
     align-items: center;
     font-size: 1px;
-    gap: 1px;
+    gap: 2px;
 }
 
 /* Botones */
 #minimizar, #maximizar, #cerrar {
-    font-size: 5px;
+    font-size: 10px;
     cursor: pointer;
     color: #000000;
     padding-bottom: 0px; 
     width: 15px;
-    height: 8px;
+    height: 13px;
     display: flex;
     align-items:end;
     justify-content: center;
@@ -74,8 +74,8 @@
     display: flex;
     flex-direction: row;
     grid-area: file;
-    font-size: 8px;
-    gap: 5px;
+    font-size: 18px;
+    gap: 10px;
     list-style: none;
     padding:0;
     margin: 0;
@@ -98,7 +98,7 @@
     background: #ffffff;
     grid-area: icons;
     display: grid;
-    grid-template: 16px 16px 16px 16px 16px 16px 16px 16px auto/ 18px 18px 1fr;
+    grid-template: 39px 39px 39px 39px 39px 39px 39px 39px auto/ 39px 39px 1fr;
     grid-template-areas:
     "column1 column2 pizarra"
     "column3 column4 pizarra"
@@ -113,8 +113,8 @@
 
 .column1{
     background: #BDBDBC;
-    gap: 1px;
-    font-size: 8px;
+    gap: 2px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -127,7 +127,7 @@
     gap: 1px;
     grid-area: column2;
     display: flex;
-    font-size: 8px;
+    font-size: 18px;
     align-items: center;
     justify-content:center ;
     border:0.3px solid #6B6B6B;
@@ -137,7 +137,7 @@
     background: #BDBDBC;
     gap: 1px;
     display: flex;
-    font-size: 8px;
+    font-size: 18px;
     align-items: center;
     justify-content:center ;
     grid-area: column3;
@@ -147,7 +147,7 @@
 .column4{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -159,7 +159,7 @@
     background: #BDBDBC;
     gap: 1px;
     display: flex;
-    font-size: 8px;
+    font-size: 18px;
     align-items: center;
     justify-content:center ;
     grid-area: column5;
@@ -169,7 +169,7 @@
 .column6{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -180,7 +180,7 @@
 .column7{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -191,7 +191,7 @@
 .column8{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -202,7 +202,7 @@
 .column9{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -215,7 +215,7 @@
     gap: 1px;
     grid-area: column10;
     display: flex;
-    font-size: 8px;
+    font-size: 18px;
     align-items: center;
     justify-content:center ;
     border:0.3px solid #6B6B6B;
@@ -226,7 +226,7 @@
     gap: 1px;
     grid-area: column11;
     display: flex;
-    font-size: 8px;
+    font-size: 18px;
     align-items: center;
     justify-content:center ;
     border:0.3px solid #6B6B6B;
@@ -235,7 +235,7 @@
 .column12{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -250,14 +250,14 @@
     justify-content: center;
     gap: 1px;
     grid-area: column13;
-    font-size: 8px;
+    font-size: 18px;
     border:0.3px solid #6B6B6B ;
     border-top:0.5px solid #ffffff;
 }
 .column14{
     background: #BDBDBC;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center ;
@@ -268,7 +268,7 @@
 .column15{
     background: #DEE0DF;
     gap: 1px;
-    font-size: 8px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,7 +284,7 @@
     display: flex;
     align-items: center;
     justify-content:center ;
-    font-size: 8px;
+    font-size: 18px;
     grid-area: column16;
     border-top: 0.7px solid white;
     border-left:0.7px solid white ;
@@ -311,7 +311,7 @@
     border: 1px solid  #bebdbd ;
     display: grid;
     grid-area: colors;
-    grid-template: 40px/40px 50px;
+    grid-template: 80px/100px auto;
     grid-template-areas:
     "palettetwo palettemultiple" ;
 }
@@ -322,35 +322,90 @@
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    margin-top: 7px;
-    margin-left: 13px;
-    margin-bottom: 12px;
+    margin-top: 13px;
+    margin-left: 23px;
+    margin-bottom: 15px;
     display: flex;
-    border-left: 1px solid #979797; 
-    border-top: 1px solid #979797; 
+    border-left: 3px solid #979797; 
+    border-top: 3px solid #979797; 
     gap: 1px;
 
 }
 .seleccion1,.seleccion2{
-    font-size: 27px;
+  
     background: #FDFFFC;
-    width: 8px;
-    height: 8px;
+    width: 18px;
+    height: 18px;
     border-left:1px solid #9E9E9D;
     border-top:1px solid #9E9E9D;
-    border-bottom:0.1px solid #9E9E9D;
-    border-right:0.1px solid #9E9E9D;
+    border-bottom:2px solid #9E9E9D;
+    border-right:2px solid #9E9E9D;
     
 }
 
 .palettemultiple{
-   margin-top: 7px;
-   margin-left: 3px;
-   margin-bottom: 8px;
-   background:#98ae28;
+   margin-top: 18px;
+   margin-bottom: 1px;
+   font-size: 3px;
    grid-area: palettemultiple;
+   display: flex;
+   flex-direction: row;
+   gap: 3px;
+   margin-left: 25px;
 }
-
+ #color1,#color2,#color3,#color4,#color5,#color6,#color7,#color8,#color9,#color10,#color11,#color12,#color13,#color14{
+    width:20px;
+    height: 20px;
+ }
+ #color1{
+    background:#000000;
+ }
+ #color2{
+    background:#7F7D7E;
+ }
+ #color3{
+    background:#791511;
+ }
+ #color4{
+    background:#7F7E34;
+ }
+ #color5{
+    background:#398035;
+ }
+ #color6{
+    background:#3B877F;
+ }
+ #color7{
+    background:#0C056F;
+ }
+ #color8{
+    background: #6A176D;
+ }
+ #color9{
+    background:#808158;
+ }
+ #color10{
+    background:#19413B;
+ }
+ #color11{
+    background:#3A85EC;
+ }
+ #color12{
+    background:#19427A;
+ }
+ #color13{
+    background:#3F1BD3;
+ }
+ #color14{
+    background:#784526;
+ }
+ .color{
+    width:20px;
+    height: 20px;
+    background: #ae2165;
+    display: flex;
+    flex-direction: row;
+ }
 .elipse {
     background: #ae2165;
     grid-area: elipse;
