@@ -350,10 +350,16 @@
    grid-area: palettemultiple;
    display: flex;
    flex-direction: row;
-   gap: 3px;
+   gap: 2px;
    margin-left: 25px;
 }
- #color1,#color2,#color3,#color4,#color5,#color6,#color7,#color8,#color9,#color10,#color11,#color12,#color13,#color14{
+ #color1,#color2,#color3,#color4,#color5,#color6,#color7,#color8,#color9,#color10,#color11,#color12,#color13,#color14,#color15,#color16,#color17,
+ #color18,#color19,#color20,#color21,#color22,#color23,#color24,#color25,#color26,#color27,#color28
+ {
+    border-right: 2px solid#F6F6F6;
+    border-bottom: 2px solid#F6F6F6;
+    border-top:2px solid #8E8E8E ;
+    border-left:2px solid #8E8E8E ;
     width:20px;
     height: 20px;
  }
@@ -399,14 +405,85 @@
  #color14{
     background:#784526;
  }
+ #color15{
+    background:#784526;
+ }
+ #color16{
+    background:#FEFEFE;
+ }
+ #color17{
+    background:#E53229;
+ }
+ #color18{
+    background:#F8FB85;
+ }
+ #color19{
+    background:#96F67B;
+ }
+ #color20{
+    background:#96F7FA;
+ }
+ #color21{
+    background:#211CDD;
+ }
+ #color22{
+    background:#CF47E7;
+ }
+ #color23{
+    background:#F9FCA9;
+ }
+ #color24{
+    background:#95F4A1;
+ }
+ #color25{
+    background:#AFF1F2;
+ }
+ #color26{
+    background:#7F7CE1;
+ }
+ #color27{
+    background:#D24574;
+ }
+ #color28{
+    background:#DD8C65;
+ }
  .color{
-    width:20px;
-    height: 20px;
-    background: #ae2165;
+    margin-top: 3px;
+    margin-bottom: 1px;
+    font-size: 3px;
+    grid-area: color;
     display: flex;
     flex-direction: row;
+    gap: 2px;
+    margin-left: 25px;
  }
 .elipse {
-    background: #ae2165;
+    background: #BEBEBD;
     grid-area: elipse;
+    display: grid;
+    border-left:2px solid #8E8E8E ;
+    font-weight: bold;
+    grid-template:100%/0.4fr 0.4fr 0.3fr;
+    grid-template-areas: 
+    "dibuja caracter ano";
+
+}
+
+.dibuja{
+    grid-area: dibuja;
+    border-right: 2px solid#F6F6F6;
+    border-top:2px solid #8E8E8E ;
+    border-left:2px solid #8E8E8E ;
+}
+.caracter{
+    grid-area: caracter;
+    border-right: 2px solid#F6F6F6;
+    border-top:2px solid #8E8E8E ;
+    border-left:2px solid #8E8E8E ;
+}
+.ano{
+    grid-area: ano;
+    border-right: 2px solid#F6F6F6;
+    border-top:2px solid #8E8E8E ;
+    border-left:2px solid #8E8E8E ;
 }
