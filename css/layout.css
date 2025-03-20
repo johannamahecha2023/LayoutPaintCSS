@@ -111,160 +111,68 @@
     "column17 column18 pizarra";
 }
 
-.column1{
+.column1,.column2,.column3,.column4,.column5,.column6,.column7,.column8,.column9,.column10,.column11,.column12,.column13,.column14,.column15,.column16{
     background: #BDBDBC;
     gap: 2px;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content:center;
-    grid-area: column1;
+    cursor: pointer;
     border:0.3px solid #6B6B6B;
     border-top:0.5px solid #ffffff;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+.column1{
+    grid-area: column1;
 }
 .column2{
-    background: #BDBDBC;
-    gap: 1px;
     grid-area: column2;
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    justify-content:center ;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column3{
-    background: #BDBDBC;
-    gap: 1px;
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    justify-content:center ;
     grid-area: column3;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column4{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column4;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column5{
-    background: #BDBDBC;
-    gap: 1px;
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    justify-content:center ;
     grid-area: column5;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column6{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column6;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column7{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column7;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column8{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column8;
-    border:0.3px solid #6B6B6B ;
-    border-top:0.5px solid #ffffff;
 }
 .column9{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column9;
-    border:0.3px solid #6B6B6B ;
-    border-top:0.5px solid #ffffff;
 }
 .column10{
-    background: #BDBDBC;
-    gap: 1px;
     grid-area: column10;
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    justify-content:center ;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column11{
-    background: #BDBDBC;
-    gap: 1px;
     grid-area: column11;
-    display: flex;
-    font-size: 18px;
-    align-items: center;
-    justify-content:center ;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column12{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column12;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
 .column13{
-    background: #BDBDBC;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1px;
     grid-area: column13;
-    font-size: 18px;
-    border:0.3px solid #6B6B6B ;
-    border-top:0.5px solid #ffffff;
 }
 .column14{
-    background: #BDBDBC;
-    gap: 1px;
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content:center ;
     grid-area: column14;
-    border:0.3px solid #6B6B6B;
-    border-top:0.5px solid #ffffff;
 }
+.column1:hover,.column2:hover,.column3:hover,.column4:hover,.column5:hover,
+.column6:hover,.column7:hover,.column8:hover,.column9:hover,.column10:hover,
+.column11:hover,.column12:hover,.column13:hover,.column14:hover
+{
+    transform: scale(1.05); /* Hace que el elemento aumente un 5% su tamaño */
+    box-shadow: 0px 4px 10px rgba(150, 150, 150, 0.5); /* Agrega una sombra para resaltar */
+}
+
 .column15{
     background: #DEE0DF;
     gap: 1px;
@@ -362,6 +270,7 @@
     border-left:2px solid #8E8E8E ;
     width:20px;
     height: 20px;
+    
  }
  #color1{
     background:#000000;
